@@ -33,7 +33,7 @@ public class Second {
  *                                                                00
  *              
  *              Step 3 : enter first i loop for i=3 and then enter the j loop for j=1
- *                       so it prints first 00
+ *                       so it prints first 0
  *                                          00
  *                                          0
  *                       again j loops runs until i (for the third loop i=3) 
