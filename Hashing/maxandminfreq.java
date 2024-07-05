@@ -36,6 +36,35 @@ class maxandminfreq{
     }
 }
 
+/*
 
+Brute force method :
+
+    int n;
+    int arr[n];
+    input(arr);
+    
+    int maxElement, maxCount, minElement, minCount;
+    
+    for(int i=1;i<=n;i++){
+      for(int j=i;j<=n;j++){
+        if(arr[i] == arr[j]){
+          cnt++;
+        }
+      }
+      if(maxCount < cnt){
+        cnt = maxCount;
+        maxElement = arr[i];
+      }
+      if(minCount < cnt){
+        cnt = minCount;
+        minElement = arr[i];
+      }
+    }
+    print(MaxElemnt, MaxCount);
+    print(MinElemnt, MinCount);
+    
+
+*/
 
  
