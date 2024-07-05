@@ -44,6 +44,9 @@ public class hashmap {
             System.out.println(entry.getKey() + " => " + entry.getValue());
         }
 
+        //Returns the value to which the specified key is mapped, or defaultValue if this map contains no mapping for the key.
+        System.out.println(map.getOrDefault(2, "default"));
+        
         // Remove an entry
         map.remove(2);
         System.out.println("Map after removing key 2: " + map);
